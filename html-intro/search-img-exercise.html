@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise</title>
+    <style>
+      .email {
+        font-size: 10px;
+        color: rgb(107, 106, 106);
+        font-family: arial;
+      }
+      .email-input {
+        width: 230px;
+      }
+      .privacy-policy {
+        font-size: 10px;
+        color: rgb(107, 106, 106);
+        font-family: arial;
+      }
+      .agree-button {
+        background-color: rgba(51, 101, 239, 0.872);
+        color: white;
+        border: none;
+        border-color: rgb(19, 69, 207);
+        border-radius: 15px;
+        padding-left: 85px;
+        padding-right: 85px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        font-size: 12px;
+        margin-bottom: 100px;
+      }
+      .agree-button:hover {
+        opacity: 0.7;
+        cursor: pointer;
+      }
+      .agree-button:active {
+        opacity: 0.5;
+      }
+      .container {
+        display: flex;
+        align-items: center;
+        width: 245px;
+        border: 1px rgb(211, 210, 210) solid;
+        padding-top: 8px;
+        padding-bottom: 5px;
+        padding-left: 8px;
+        padding-right: 3px;
+        border-radius: 3px;
+        box-shadow: 0px 0px 5px rgb(167, 166, 166);
+      }
+      .twice-img {
+        height: 30px;
+        width: 30px;
+        object-fit: cover;
+        border-radius: 25px;
+      }
+      .twice-img:hover {
+        opacity: 0.7;
+      }
+      .twice-img:active {
+        opacity: 0.5;
+      }
+      .twt-desc {
+        font-size: 12px;
+        color: rgb(173, 171, 171);
+        font-family: arial;
+        margin-left: 10px;
+        border: none;
+        width: 110px;
+      }
+      .twt-desc::placeholder {
+        color: rgb(187, 185, 185);
+      }
+      .twt-desc:focus {
+        outline: none;
+      }
+      .tweet {
+        color: white;
+        background-color: rgb(23, 169, 213);
+        border-radius: 15px;
+        border: none;
+        margin-left: 20px;
+        font-size: 12px;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+      }
+      .tweet:hover {
+        opacity: 0.7;
+        cursor: pointer;
+      }
+      .tweet:active {
+        opacity: 0.5;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="email">Email</p>
+    <input class="email-input" type="text" />
+    <p class="privacy-policy">
+      By clicking Agree & Join, you agree to the Privacy Policy
+    </p>
+    <button class="agree-button">Agree & Join</button>
+    <div class="container">
+      <a href="https://x.com/home?lang=en" target="_blank">
+        <img class="twice-img" src="thumbnails/twitter.png" />
+      </a>
+      <input class="twt-desc" type="text" placeholder="What's happening?" />
+      <a href="https://x.com/compose/post" target="_blank">
+        <button class="tweet">Tweet</button>
+      </a>
+    </div>
+  </body>
+</html>

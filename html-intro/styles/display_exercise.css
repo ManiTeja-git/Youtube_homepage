@@ -1,0 +1,125 @@
+.customer-care {
+  display: inline-block;
+  width: 200px;
+  vertical-align: middle;
+}
+.yes-button {
+  vertical-align: auto;
+}
+.no-button {
+  vertical-align: auto;
+}
+.container {
+  margin-top: 30px;
+}
+.first-name,
+.last-name {
+  text-align: center;
+  width: 80px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 7px;
+  border: 1px solid #ccc;
+  color: rgb(67, 67, 67);
+  font-size: 11px;
+}
+.first-name::placeholder,
+.last-name::placeholder {
+  color: #9f9d9d;
+  font-size: 12px;
+}
+.first-name:focus,
+.last-name:focus {
+  outline: none;
+}
+.email {
+  margin-top: 8px;
+  text-align: center;
+  width: 206px;
+  padding-left: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 7px;
+  border: 1px solid #ccc;
+  color: rgb(67, 67, 67);
+  font-size: 11px;
+}
+.email::placeholder {
+  color: #9f9d9d;
+  font-size: 12px;
+}
+.email:focus {
+  outline: none;
+}
+.signup-button {
+  display: block;
+  margin-top: 8px;
+  background-color: rgb(36, 127, 245);
+  color: white;
+  border-radius: 7px;
+  border: none;
+  font-size: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+  width: 212px;
+}
+.uber-title {
+  margin-top: 30px;
+  font-size: 22px;
+  font-family: arial;
+  margin-bottom: 10px;
+}
+.pickup,
+.destination {
+  margin-bottom: 5px;
+  display: block;
+  border-radius: 0px;
+  border: rgb(238, 238, 238) solid;
+  width: 200px;
+  background-color: rgb(238, 238, 238);
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  font-size: 11px;
+}
+.pickup::placeholder,
+.destination::placeholder {
+  font-size: 11px;
+}
+.pickup,
+.destination:focus {
+  outline: none;
+}
+.book {
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 11px;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 5px;
+}
+.book-later {
+  color: black;
+  background-color: rgb(203, 202, 202);
+  border: none;
+  font-size: 11px;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 12px;
+  margin-right: 5px;
+}
+button:hover {
+  opacity: 0.7;
+}
+button:active {
+  opacity: 0.5;
+}
